@@ -8,6 +8,11 @@
   --color-very-light-gray: rgb(242, 244, 245);
   --color-white: #fff;
   --color-accent: #156dff;
+  --color-metallic-bronze: #534A3C;
+  --color-pastel-blue: #B0C9D2;
+  --color-cinder: #23292E;
+  --color-cavern-pink: #DFB3AE;
+  --color-porcelain: #DDDED9;
 
   /* Typography */
   --unit: 16;

@@ -23,7 +23,7 @@ const maybeImage = illustration => {
 function Hero(props) {
   const img = maybeImage(props.illustration);
   return (
-    <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center z-50">
       {/* Left col */}
       <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
         <p className="uppercase tracking-loose w-full">{props.label}</p>
